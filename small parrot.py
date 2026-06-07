@@ -6,7 +6,7 @@ class parrot:
         self.name = name
         self.age = age
 blu = parrot("Blu", 10)
-white = parrot("White", 15)
+white = parrot("White", 5)
 
 print("there is a bird named {} and it is {} years old".format(blu.name, blu.age))
 print("Blu is a {}".format(blu.species))
